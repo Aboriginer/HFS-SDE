@@ -1,13 +1,20 @@
-# High-Frequency Space Diffusion Model for Accelerated MRI
-This repo contains the official implementation for our paper [High-Frequency Space Diffusion Model for Accelerated MRI](https://arxiv.org/pdf/2208.05481.pdf) at IEEE TMI2024.
+<h1 align="center">High-Frequency Space Diffusion Model for Accelerated MRI</h1>
+<p align="center">
+    <a href="https://arxiv.org/pdf/2208.05481.pdf"><img src="https://img.shields.io/badge/arXiv-2208.05481-b31b1b.svg" alt="Paper"></a>
+    <!-- <a href=""><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Colab"></a> -->
+    <a href="https://ieeexplore.ieee.org/document/10385176/"> <img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=TMI%2724&color=blue"> </a>
+</p>
+
+Official code for the paper "High-Frequency Space Diffusion Model for Accelerated MRI" (TMI 2024).
+
 
 by [Chentao Cao](https://scholar.google.com/citations?user=vZPl_oQAAAAJ&hl=en), [Zhuo-Xu Cui](https://scholar.google.com/citations?user=QZx0xdgAAAAJ&hl=en), Yue Wang, Shaonan Liu, Taijin Chen, [Hairong Zheng](https://scholar.google.com/citations?user=gcRVqJsAAAAJ&hl=zh-CN), [Dong Liang](https://scholar.google.com/citations?user=3cAJWoIAAAAJ&hl=en), and [Yanjie Zhu](https://scholar.google.com/citations?user=X2mIoQ4AAAAJ&hl=en)
 
-### Abstract
-Diffusion models with continuous stochastic differential equations (SDEs) can serve as a deep generative prior to solving the inverse problem in magnetic resonance (MR) reconstruction. However, low-frequency regions of k-space data are typically fully sampled in fast MR imaging, while existing diffusion models are performed throughout the entire image or k-space, inevitably introducing uncertainty in the reconstruction of low-frequency regions. Additionally, existing diffusion models often demand substantial iterations to converge, resulting in time-consuming reconstructions. To address these challenges, we propose a novel SDE tailored specifically for MR reconstruction with the diffusion process in high-frequency space (referred to as HFS-SDE). This approach ensures determinism in the fully sampled low-frequency regions and accelerates the sampling procedure of reverse diffusion. Experiments conducted on the publicly available fastMRI dataset demonstrate that the proposed HFS-SDE method outperforms traditional parallel imaging methods, supervised deep learning, and existing diffusion models in terms of reconstruction accuracy and stability. The fast convergence properties are also confirmed through theoretical and experimental validation. 
-
 ### Illustration
 ![](img/framework.png)
+
+### Abstract
+Diffusion models with continuous stochastic differential equations (SDEs) can serve as a deep generative prior to solving the inverse problem in magnetic resonance (MR) reconstruction. However, low-frequency regions of k-space data are typically fully sampled in fast MR imaging, while existing diffusion models are performed throughout the entire image or k-space, inevitably introducing uncertainty in the reconstruction of low-frequency regions. Additionally, existing diffusion models often demand substantial iterations to converge, resulting in time-consuming reconstructions. To address these challenges, we propose a novel SDE tailored specifically for MR reconstruction with the diffusion process in high-frequency space (referred to as HFS-SDE). This approach ensures determinism in the fully sampled low-frequency regions and accelerates the sampling procedure of reverse diffusion. Experiments conducted on the publicly available fastMRI dataset demonstrate that the proposed HFS-SDE method outperforms traditional parallel imaging methods, supervised deep learning, and existing diffusion models in terms of reconstruction accuracy and stability. The fast convergence properties are also confirmed through theoretical and experimental validation. 
 
 ## Setup
 
