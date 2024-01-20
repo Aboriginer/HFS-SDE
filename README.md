@@ -5,7 +5,7 @@
     <a href="https://ieeexplore.ieee.org/document/10385176/"> <img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=TMI%2724&color=blue"> </a>
 </p>
 
-Official code for the paper "[High-Frequency Space Diffusion Model for Accelerated MRI](https://ieeexplore.ieee.org/document/10385176)", published in IEEE TMI 2024.
+Official code for the paper "[High-Frequency Space Diffusion Model for Accelerated MRI](https://ieeexplore.ieee.org/document/10385176)", published in TMI 2024.
 
 
 by [Chentao Cao*](https://scholar.google.com/citations?user=vZPl_oQAAAAJ&hl=en), [Zhuo-Xu Cui*](https://scholar.google.com/citations?user=QZx0xdgAAAAJ&hl=en), Yue Wang*, Shaonan Liu, Taijin Chen, [Hairong Zheng](https://scholar.google.com/citations?user=gcRVqJsAAAAJ&hl=zh-CN), [Dong Liang](https://scholar.google.com/citations?user=3cAJWoIAAAAJ&hl=en), and [Yanjie Zhu<sup>+</sup>](https://scholar.google.com/citations?user=X2mIoQ4AAAAJ&hl=en)(*denotes equal contribution, <sup>+</sup>denotes corresponding author).
