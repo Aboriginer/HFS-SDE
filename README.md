@@ -5,10 +5,24 @@
     <a href="https://ieeexplore.ieee.org/document/10385176/"> <img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=TMI%2724&color=blue"> </a>
 </p>
 
-Official code for the paper "[High-Frequency Space Diffusion Model for Accelerated MRI](https://ieeexplore.ieee.org/document/10385176)" (TMI 2024).
+<div>
+    <a href='https://scholar.google.com/citations?user=vZPl_oQAAAAJ&hl=en' target='_blank'>Chentao Cao</a><sup></sup>*&emsp;
+    <a href='https://scholar.google.com/citations?user=QZx0xdgAAAAJ&hl=en' target='_blank'>Zhuo-Xu Cui</a><sup></sup>*&emsp;
+    <a target='_blank'>Yue Wang</a><sup></sup>*&emsp;
+    <a target='_blank'>Shaonan Liu</a><sup></sup>&emsp;
+    <a target='_blank'>Taijin Chen</a><sup></sup>&emsp;
+    <a href='https://scholar.google.com/citations?user=gcRVqJsAAAAJ&hl=zh-CN' target='_blank'>Hairong Zheng</a><sup></sup>&emsp;
+    <a href='https://scholar.google.com/citations?user=3cAJWoIAAAAJ&hl=en' target='_blank'>Dong Liang</a><sup></sup>&emsp;
+    <a href='https://scholar.google.com/citations?user=X2mIoQ4AAAAJ&hl=en' target='_blank'>Yanjie Zhu</a><sup>+</sup>&emsp;
+</div>
+<div>
+    *equal contribution&emsp;
+    <sup>+</sup>corresponding author
+</div>
+
+Official code for the paper "[High-Frequency Space Diffusion Model for Accelerated MRI](https://ieeexplore.ieee.org/document/10385176)", published in IEEE TMI 2024.
 
 
-by [Chentao Cao*](https://scholar.google.com/citations?user=vZPl_oQAAAAJ&hl=en), [Zhuo-Xu Cui*](https://scholar.google.com/citations?user=QZx0xdgAAAAJ&hl=en), Yue Wang*, Shaonan Liu, Taijin Chen, [Hairong Zheng](https://scholar.google.com/citations?user=gcRVqJsAAAAJ&hl=zh-CN), [Dong Liang](https://scholar.google.com/citations?user=3cAJWoIAAAAJ&hl=en), and [Yanjie Zhu](https://scholar.google.com/citations?user=X2mIoQ4AAAAJ&hl=en)(* denotes equal contribution).
 
 ### Illustration
 ![](img/framework.png)
