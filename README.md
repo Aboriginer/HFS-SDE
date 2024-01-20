@@ -213,7 +213,7 @@ If you find the code useful for your research, please consider citing
 }
 ```
 
-Our implementation is based on [Score-based SDE](https://github.com/yang-song/score_sde_pytorch) by Dr. Yang Song. Thanks for his great work!
+Our implementation is based on [Score-based SDE](https://github.com/yang-song/score_sde_pytorch) by Dr. Yang Song. And we also borrowed some code from [csgm-mri-langevin](https://github.com/utcsilab/csgm-mri-langevin). Thanks for their great works!
 
 ## Questions
 If you have any problem, please contact chentaocao1224@gmail.com
