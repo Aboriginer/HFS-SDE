@@ -1,0 +1,6 @@
+# ignore data and output directory
+results/
+__pycache__/
+
+# vscode debug
+.vscode/
