@@ -108,7 +108,7 @@ main.py:
 
 ## Pretrained checkpoints
 
-All checkpoints are provided in this [Google drive](https://drive.google.com/drive/folders/12QjFb3HREdfLFWIgyrot4rXiBOFlOxH5?usp=drive_link).
+All checkpoints are provided [here](https://drive.google.com/drive/folders/12QjFb3HREdfLFWIgyrot4rXiBOFlOxH5?usp=drive_link).
 
 ## Quick Start Guide
 
