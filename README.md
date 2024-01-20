@@ -87,10 +87,8 @@ main.py:
 
       config
       ├── ve
-      │   ├── ncsnpp_continuous.py
       │   └── ddpm_continuous.py
       ├── vp
-      │   ├── ncsnpp_continuous.py
       │   └── ddpm_continuous.py
       └── hfssde
           └── ddpm_continuous.py
