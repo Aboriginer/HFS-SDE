@@ -50,8 +50,6 @@ These datasets can be downloaded [here](https://fastmri.med.nyu.edu/).
 
 In the image domain, crop the data to 320x320 and perform sensitivity estimation using the [BART](https://mrirecon.github.io/bart/) toolbox. The Auto-Calibration Signal(ACS) region is set to 24x24.
 
-The sensitivity estimation workflow and code can be found in `data_prepare/generate_smaps.py`.
-
 ##### Sensitivity Estimation Workflow
 
 * `Sensitivity Estimation:` We employ the  [BART](https://mrirecon.github.io/bart/) toolbox to estimate the sensitivity maps for the raw data(h5 files downloaded [above](#Download)). The ACS region for this estimation is set to 24x24 pixels.
