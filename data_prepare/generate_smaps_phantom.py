@@ -41,10 +41,10 @@ smaps = np.zeros(data_shape, dtype=np.complex64)
 kspace_data = kspace_data.transpose(0, 2, 3, 1)
 
 # Make sure that the k-space shape is (slice, kx, ky, nc)
-
 # Estimate coil sensitivity map
 for i in range(kspace_data.shape[0]):
-    smaps_bart = bart(1, "ecalib -m 1 -S", kspace_data[:])
+    # input shape of bart: [slice, kx, ky, nc]
+    smaps_bart = bart(1, "ecalib -m 1 -S", np.ascontiguousarray(kspace_data[i:i+1, :, :, :]))
     smaps[i] = np.ascontiguousarray(
         smaps_bart[0].transpose(2, 0, 1).astype(np.complex64)
     )

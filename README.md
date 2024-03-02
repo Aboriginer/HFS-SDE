@@ -56,7 +56,7 @@ The sensitivity estimation workflow and code can be found in `data_prepare/gener
 
 * `Sensitivity Estimation:` We employ the  [BART](https://mrirecon.github.io/bart/) toolbox to estimate the sensitivity maps for the raw data(h5 files downloaded [above](#Download)). The ACS region for this estimation is set to 24x24 pixels.
 - The sensitivity maps are essential for parallel imaging techniques, such as parallel MRI (magnetic resonance imaging), to improve image reconstruction by accounting for the sensitivity of each coil element.
-* `Code Location:` You can find the code for sensitivity estimation in the `data_prepare/generate_smaps.py`.
+* `Code Location:` You can find the code for sensitivity estimation in the `data_prepare/generate_smaps_phantom.py` and `data_prepare/generate_smaps_fastMRI.py`.
 
 Please ensure that you have the necessary libraries and tools, including [BART](https://mrirecon.github.io/bart/), installed and configured to perform these operations on your data.
 
