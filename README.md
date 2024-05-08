@@ -203,12 +203,14 @@ If you find the code useful for your research, please consider citing
 
 ```bib
 @article{cao2024hfs,
-  title={High-Frequency Space Diffusion Model for Accelerated MRI},
   author={Cao, Chentao and Cui, Zhuo-Xu and Wang, Yue and Liu, Shaonan and Chen, Taijin and Zheng, Hairong and Liang, Dong and Zhu, Yanjie},
-  journal={IEEE Transactions on Medical Imaging},
+  journal={IEEE Transactions on Medical Imaging}, 
+  title={High-Frequency Space Diffusion Model for Accelerated MRI}, 
   year={2024},
-  publisher={IEEE}
-}
+  volume={43},
+  number={5},
+  pages={1853-1865},
+  doi={10.1109/TMI.2024.3351702}}
 ```
 
 Our implementation is based on [Score-based SDE](https://github.com/yang-song/score_sde_pytorch) by Dr. Yang Song. And we also borrowed some code from [csgm-mri-langevin](https://github.com/utcsilab/csgm-mri-langevin). Thanks for their great works!
