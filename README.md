@@ -42,7 +42,7 @@ To facilitate a quick start, we provide sample data located at `data/photom`.
 
 #### Download
 
-For the training dataset, we used 973 individuals from the fastMRI multi-coil knee dataset. A total of 28904 T1- and T2-weighted images were finally involved in the training dataset. We selected two datasets for testing. One was the knee data from 3 individuals(file1000046T1.h5, file1000048T1.h5 and file1000049T1.h5) selected randomly from the validation dataset, and the other one was the brain data from 1 individual(file_brain_AXT2_200_2000019.h5).
+For the training dataset, we used 973 individuals from the fastMRI multi-coil knee dataset. A total of 28904 T1- and T2-weighted images were finally involved in the training dataset. We selected two datasets for testing. One was the knee data from 3 individuals(file1000976.h5, file1001064.h5, and file1001077.h5) selected randomly from knee_multicoil_val (approximately 93.8 GB) dataset, and the other one was the brain data from 1 individual(file_brain_AXT2_200_2000019.h5).
 
 These datasets can be downloaded [here](https://fastmri.med.nyu.edu/).
 
