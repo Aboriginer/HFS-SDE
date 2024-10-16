@@ -18,6 +18,10 @@ by [Chentao Cao*](https://scholar.google.com/citations?user=vZPl_oQAAAAJ&hl=en),
 ### Abstract
 Diffusion models with continuous stochastic differential equations (SDEs) can serve as a deep generative prior to solving the inverse problem in magnetic resonance (MR) reconstruction. However, low-frequency regions of k-space data are typically fully sampled in fast MR imaging, while existing diffusion models are performed throughout the entire image or k-space, inevitably introducing uncertainty in the reconstruction of low-frequency regions. Additionally, existing diffusion models often demand substantial iterations to converge, resulting in time-consuming reconstructions. To address these challenges, we propose a novel SDE tailored specifically for MR reconstruction with the diffusion process in high-frequency space (referred to as HFS-SDE). This approach ensures determinism in the fully sampled low-frequency regions and accelerates the sampling procedure of reverse diffusion. Experiments conducted on the publicly available fastMRI dataset demonstrate that the proposed HFS-SDE method outperforms traditional parallel imaging methods, supervised deep learning, and existing diffusion models in terms of reconstruction accuracy and stability. The fast convergence properties are also confirmed through theoretical and experimental validation. 
 
+## Adv
+Checkout our
+- 🔥🔥🔥 TMI'24 Work [SPIRiT-Diffusion]([https://github.com/Aboriginer/HFS-SDE](https://github.com/zhyjSIAT/SPIRiT-Diffusion)) proposes a novel diffusion method by incorporating k-space physical priors.
+
 ## Setup
 
 The following will introduce environment setup, data preparation, usage instructions, experiment weights, and a quick start guide. In the quick start guide, we provide experiment weights and synthetic data for easy model validation without the need for lengthy data downloads. Additionally, the quick start guide will offer guidance on parameter settings for generating high-quality reconstruction samples.
