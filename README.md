@@ -20,7 +20,7 @@ Diffusion models with continuous stochastic differential equations (SDEs) can se
 
 ## Adv
 Checkout our
-- 🔥🔥🔥 TMI'24 Work [SPIRiT-Diffusion]([https://github.com/Aboriginer/HFS-SDE](https://github.com/zhyjSIAT/SPIRiT-Diffusion)) proposes a novel diffusion method by incorporating k-space physical priors.
+- 🔥🔥🔥 TMI'24 Work [SPIRiT-Diffusion](https://github.com/zhyjSIAT/SPIRiT-Diffusion) proposes a novel diffusion method by incorporating k-space physical priors.
 
 ## Setup
 
