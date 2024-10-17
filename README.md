@@ -20,7 +20,7 @@ Diffusion models with continuous stochastic differential equations (SDEs) can se
 
 ## Adv
 Checkout our
-- 🔥🔥🔥 TMI'24 Work [SPIRiT-Diffusion](https://github.com/zhyjSIAT/SPIRiT-Diffusion) proposes a novel diffusion method by incorporating k-space physical priors.
+- 🔥🔥🔥 TMI'24 Work [SPIRiT-Diffusion](https://github.com/zhyjSIAT/SPIRiT-Diffusion), by employing an optimization model in MRI, we guide the formulation of forward and reverse diffusion equations with inherent physical significance. This process facilitates the reconstruction of MR images or the completion of missing k-space data under imposed physical constraints.
 
 ## Setup
 
